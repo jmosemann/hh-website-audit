@@ -1,0 +1,26 @@
+{
+  "name": "dealer-audit-generator",
+  "version": "1.0.13",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx netlify dev",
+    "dev:vite": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "functions:serve": "npx netlify functions:serve"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^9.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "packageManager": "npm@10.8.2"
+}
